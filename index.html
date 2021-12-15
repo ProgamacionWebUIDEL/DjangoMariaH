@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BACKEND</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #3b8ad3;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://www.muycomputerpro.com/zona-ticjob/wp-content/uploads/2019/04/CABECERA-ARTICULO-BACK.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p>BackEnd</p>
+        </div>      
+      </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+<div class="container text-center">    
+  <h3 align="justify">Este término es utilizado para referirse al área lógica de toda página web. Nos referimos a la arquitectura interna del sitio que asegura que todos elementos desarrollen la función correcta. No está visible a ojos del usuario y no incluye ningún tipo de elemento gráfico.Es la función de ingeniería a desarrollar por el programador, ya que se basa únicamente en el código interno de la página. Esta área es la encargada, además de la funcionalidad del sitio, de la seguridad y la optimización de los recursos.</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://lh6.googleusercontent.com/qkok_-tZxH64DWVj7O3QqGLiI06-GGdw4VTQV_ulfmwU7o8c2n4UNBRXO7WMD-kXq-HWbvNhhwTG4d5PRdgJk3Rwgc2NxBNoVlfGQuwaBG06TSHF2b7MnJNmqZjSosQQPQG8J-bh" class="img-responsive" style="width:100% " alt="Image">
+      <h2 align="justify"><p>El programador backend, por lo tanto, se encarga diseñar toda la lógica y soluciones para que todas las acciones solicitadas desde una página web se ejecuten de manera correcta. Para ello programa sirviéndose de distintos lenguajes de programación y frameworks. Pero también, es completamente necesario que sepa interactuar con las bases de datos, ya que es el encargado de que los datos que llegan desde el frontend lleguen a una base de datos.</p></h2>
+    </div>
+    <div class="col-sm-4"> 
+      <img src="https://ecdisis.com/wp-content/uploads/2021/01/WhatsApp-Image-2021-07-30-at-11.03.53.jpeg"img-responsive" style="width:100%" alt="Image">
+      <h2 align="justify"><p>Los lenguajes más utilizados dentro del Back-End son:<br>
+        <br>-ASP.NET: Es la plataforma de desarrollo web de Microsoft. Cuenta con las variantes de Web Forms y MVC.<br>
+        <br>-PHP: Muy utilizado en algunos de los principales gestores de contenido como WordPress.<br>
+        <br>-Ruby: También se utiliza su framework Ruby on rails.<br>
+        <br>-Python: Se usa comúnmente con Django como framework.<br>
+        <br>-Node.js: Más utilizado en los últimos tiempos, ya que utiliza un lenguaje similar al del lado del cliente (JavaScript).</p></h2>
+    </div>
+    <div class="col-sm-4">
+      <div class="well">
+        <h2 align="justify"><p>Todas las acciones aplicadas en el Backend están relacionadas enteramente a la experiencia del usuario, optimizando los procesos para que la navegación en tu sitio sea lo suficientemente óptima como para captar cada vez a más visitantes. Sería algo más o menos así: tu sitio web necesita de diseñadores que aseguren una gran interfaz (Frontend), pero también requiere de personas que desarrollen la parte analítica (Backend). Ahora que ya sabes para qué sirve el Backend, ya podemos explicarte mejor cuáles son las diferencias exactas entre ambos conceptos.</p></h2>
+      </div>
+      <div class="well">
+        <h3 align="justify"><p>Ejemplos de Backend:
+
+          <br>Transforma datos. 
+          <br>Gestiona base de datos.
+          <br>Respalda los datos.
+          <br>Vela por la ciberseguridad. 
+          <br>Disponibilidad y escalabilidad de la red.</p></h3>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center">
+  
+</footer>
+
+</body>
+</html>
